@@ -1,4 +1,4 @@
-# AvtoTests_API_PetFriends
+# AvtoTests_API_PetFriends (для удобства - смотреть в Code)
 Стек технологий:
     Тестовый фреймворк Pytest и автотесты для REST API
     
