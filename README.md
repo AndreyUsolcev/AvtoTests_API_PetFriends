@@ -29,25 +29,25 @@
         """Метод отправляет на сервер pet_photo и заменяет, либо добавляет фото к существующему питомцу,
         используя pet_id, затем возвращает статус запроса на сервер. """
  АвтоТесты:
-  1.test1_unsuccessful_get_api_key_for_invalid_user
+  1. test1_unsuccessful_get_api_key_for_invalid_user
     """ Проверяем запрос api ключа c неверными email и password"""
-  2.test2_unsuccessful_get_api_key_for_valid_mail_only
+  2. test2_unsuccessful_get_api_key_for_valid_mail_only
     """ Проверяем запрос api ключа c неверным password"""
-  3.test3_unsuccessful_get_all_pets_with_invalid_key
+  3. test3_unsuccessful_get_all_pets_with_invalid_key
     """ Проверяем безопасность авторизации при вводе некоректного api ключа """
-  4.test4_unsuccessful_add_new_pet_with_invalid_data
+  4. test4_unsuccessful_add_new_pet_with_invalid_data
     """Проверяем что можно добавить питомца с некорректными данными без фото"""
-  5.test5_successful_add_new_pet_with_invalid_foto
+  5. test5_successful_add_new_pet_with_invalid_foto
     """возможно это БАГ...Проверяем что можно добавить питомца с невалидным фото (более 9 Мб) """
-  6.test6_unsuccessful_delete_self_pet():
+  6. test6_unsuccessful_delete_self_pet():
     """Проверяем возможность удаления пустого списка питомцев""" 
-  7.test7_successful_update_self_pet_info_with_invalid_data
+  7. test7_successful_update_self_pet_info_with_invalid_data
     """это БАГ...Проверяем возможность обновления информации о питомце c невалидными данными"""
-  8.test8_add_new_pet_without_photo_with_invalid_data
+  8. test8_add_new_pet_without_photo_with_invalid_data
     """это БАГ....Проверяем что можно добавить питомца с некорректными данными"""
-  9.test9_unsuccessful_set_photo_pet_with_null_data
+  9. test9_unsuccessful_set_photo_pet_with_null_data
     """Проверяем ошибку при добавлении пустого фото питомца"""
-  10.test10_unsuccessful_set_photo_pet_with_equal_foto
+  10. test10_unsuccessful_set_photo_pet_with_equal_foto
     """Проверяем ошибку при добавлении одинаковых фото питомца с корректными данными"""
 
 Стартовые действия при работе с проектом:
